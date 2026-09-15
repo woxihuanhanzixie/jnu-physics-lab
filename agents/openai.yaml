@@ -1,4 +1,4 @@
 interface:
   display_name: "JNU大学物理实验"
-  short_description: "依据本次教材整理可手抄的课前预习正文，包含公式、必要图示和空白数据表"
-  default_prompt: "请使用 $jnu-physics-lab，根据我提供的本次教材整理大学物理实验课前预习，直接输出正文，并生成必要图示。"
+  short_description: "依据教材完成可手抄的课前预习或实验后报告，先核对数据再计算与评定不确定度"
+  default_prompt: "请使用 $jnu-physics-lab，按我指定的课前预习或实验后报告模式处理本次资料；实验后先确认大纲，再核对数据并直接输出计算与报告正文。"
